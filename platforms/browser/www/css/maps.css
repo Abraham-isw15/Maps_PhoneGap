@@ -1,0 +1,83 @@
+body {
+  margin: 0px;  
+  font-size: 18px;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.header {
+  padding: 0 10px;
+  color: #fff;
+  background-color: #666;
+  text-align: center;
+  height: 48.4px;
+  line-height: 48.4px;
+}
+.header img {
+  max-height: 30px;
+  margin: 10px 0;
+}
+
+.footer {
+  padding:5px;
+  font-style:italic;
+  font-size:small;
+  text-align: center;
+}
+
+#map{  
+  margin: 10px 0;
+  border: 1px solid;
+  height: 400px;
+}
+
+#coords,
+#weather,
+#pictures{
+  display: none;
+}
+
+#place,
+#weather,
+#coords{
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #afafaf;
+  background: #dedede;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#pictures img,
+#pictures span {
+  width: 96%;
+  margin: 0 auto;
+  display: block;
+}  
+
+#pictures img { 
+  margin-top: 10px;
+  box-shadow: 2px 0px 2px #dedede;    
+}
+#pictures span {
+  font-size: 12px;
+  background: #666666;
+  color: #FFF;
+  padding: 5px;
+  font-style: italic;
+}
+
+.btn {
+  margin: 15px auto;
+  padding: 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+  background: #FFF;
+  border: 1px solid #f3f3f3;
+  min-width: 200px;
+  width: 50%;
+  display: block;
+  box-shadow: 3px 2px 1px #dedede, -2px 1px 0px #dedede;
+  border-radius: 5px;
+  cursor: pointer;    
+}

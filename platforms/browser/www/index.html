@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="css/maps.css" />
+    
+    <title>Maps</title>
+  </head>
+  <body>
+
+    <div class="header">
+      <img align="left" src="img/maps.png">
+      <span>Mapas con Geolocalización</span>
+    </div>
+
+    <div id="map"></div>
+    <div id="place">Información del Lugar</div>
+    <button id="btnCoords" class="btn">Detalle de su ubicación</button>
+    <pre id="coords">Detalle de su ubicación</pre>
+
+    <button id="btnWeather" class="btn">Ver Clima</button>
+    <pre id="weather">Información del Tiempo</pre>
+    
+    <button id="btnPictures" class="btn">Fotos del Lugar</button>
+    <div id="pictures">
+      
+      <!-- <img src="img/machala.jpg">      
+      <span>Titulo de la Foto</span>      -->
+
+    </div>
+
+    <div class="footer">
+      Creando Apps. Aprende a programar aplicaciones móviles.
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>    
+    <script type="text/javascript" src="js/moment.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/leaflet.js"></script>
+    
+    <script type="text/javascript" src="js/maps.js"></script>
+
+  </body>
+</html>
